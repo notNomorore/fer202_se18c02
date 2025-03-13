@@ -1,0 +1,20 @@
+.container{
+    width: 100%;
+}
+.col-12{
+    background-color: rgb(233, 236, 239);
+    padding: 20px 5px 20px 30px;
+}
+.col{
+    font-size: small;
+    background-color: rgb(202, 202, 202);
+    border: 1px solid #929292;
+    height: 50px;
+}
+footer{
+    background-color: rgb(210, 197, 197);
+    text-align: center;
+}
+h1{
+padding: 15px 15px 15px 0px;
+}
