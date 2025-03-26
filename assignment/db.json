@@ -1,0 +1,130 @@
+{
+  "Keyboards": [
+    {
+      "id": "1",
+      "name": "Keychron K6",
+      "description": "Bàn phím cơ không dây, layout 65%, switch Gateron.",
+      "image": "https://lzd-img-global.slatic.net/g/p/fdec53db4d3a9214762ba46dd0e4f922.jpg_720x720q80.jpg",
+      "price": 1890000,
+      "status": "in-stock"
+    },
+    {
+      "id": "2",
+      "name": "Leopold FC660M",
+      "description": "Bàn phím cơ cao cấp, switch Cherry MX, keycap PBT.",
+      "image": "https://img.alicdn.com/imgextra/i4/2057654037/O1CN01YZQI8v1fgzZvndZsw_!!2057654037.jpg",
+      "price": 2700000,
+      "status": "in-stock"
+    },
+    {
+      "id": "3",
+      "name": "Royal Kludge RK61",
+      "description": "Bàn phím cơ không dây 60%, switch hot-swappable.",
+      "image": "https://lzd-img-global.slatic.net/g/p/3684a5fa2949ddb6babb96127fb84999.jpg_720x720q80.jpg",
+      "price": 1200000,
+      "status": "pre-order"
+    },
+    {
+      "id": "4",
+      "name": "Ducky One 2 Mini",
+      "description": "Bàn phím gaming 60%, RGB, switch Cherry MX.",
+      "image": "https://cf.shopee.co.th/file/a13f11105273458588b3e7c83f944bd8",
+      "price": 2600000,
+      "status": "in-stock"
+    },
+    {
+      "id": "5",
+      "name": "Corsair K95 RGB Platinum",
+      "description": "Bàn phím cơ fullsize, switch Cherry MX Speed.",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lqy9kbs5plztb3.webp",
+      "price": 3900000,
+      "status": "pre-order"
+    },
+    {
+      "id": "6",
+      "name": "Razer Huntsman Mini",
+      "description": "Bàn phím quang học 60%, switch Razer Optical.",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lt21t7gxboase6.webp",
+      "price": 2800000,
+      "status": "in-stock"
+    },
+    {
+      "id": "7",
+      "name": "Logitech G Pro X",
+      "description": "Bàn phím gaming TKL, switch hot-swappable.",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmgdlw88sxr3f9.webp",
+      "price": 3200000,
+      "status": "pre-order"
+    },
+    {
+      "id": "8",
+      "name": "Akko 3068B",
+      "description": "Bàn phím không dây 65%, hỗ trợ Bluetooth & 2.4G.",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m339862tpfye57.webp",
+      "price": 1500000,
+      "status": "in-stock"
+    },
+    {
+      "id": "9",
+      "name": "Anne Pro 2",
+      "description": "Bàn phím cơ không dây 60%, switch Gateron.",
+      "image": "https://down-ph.img.susercontent.com/file/1326229d427288067baaff7641d6b722",
+      "price": 1800000,
+      "status": "pre-order"
+    },
+    {
+      "id": "10",
+      "name": "SteelSeries Apex Pro",
+      "description": "Bàn phím cơ có thể tùy chỉnh hành trình phím.",
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6508/6508052cv13d.jpg",
+      "price": 4900000,
+      "status": "in-stock"
+    },
+    {
+      "id": 11,
+      "name": "Keychron Q1",
+      "description": "Bàn phím cơ custom, layout 75%, vỏ nhôm.",
+      "image": "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Q1-Max-7.jpg?v=1701051646",
+      "price": 3500000,
+      "status": "in-stock"
+    },
+    {
+      "id": 12,
+      "name": "Glorious GMMK Pro",
+      "description": "Bàn phím cơ custom, layout 75%, vỏ nhôm, hot-swappable.",
+      "image": "https://i.redd.it/9zu2yqv5hud71.jpg",
+      "price": 3800000,
+      "status": "in-stock"
+    }
+  ],
+  "UserAccounts": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "1234567",
+      "account_type": "admin",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "username": "jane",
+      "password": "1234567",
+      "account_type": "user",
+      "status": "inactive"
+    },
+    {
+      "id": "3",
+      "username": "alice",
+      "password": "1234567",
+      "account_type": "user",
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "username": "bob",
+      "password": "1234567",
+      "account_type": "guest",
+      "status": "active"
+    }
+  ]
+}
