@@ -9,24 +9,26 @@ import HomeAfterLogin from './pages/HomeAfterLogin';
 import PreOrderProducts from './pages/PreorderPage';
 import InstockPage from './pages/InstockPage';
 import ItemDetail from './components/ItemDetail';
-import ItemList from './components/ItemList';
 import ItemManagement from './pages/ItemManagementPage';
+import { UserProvider } from './components/UserContext';
 
 function App() {
   return (
     <div>
-      <Routes>
+      <UserProvider>
+        <Routes>
           <Route path="/home" element={<HomePage />} />
-          <Route path="/homee" element={<HomeAfterLogin />} />
+          <Route path="/home/:id" element={<HomeAfterLogin />} />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/preord" element={<PreOrderProducts />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/instock" element={<InstockPage/>} />
-          <Route path="/keyboard_list" element={<ItemList/>} />
-          <Route path="/keyboard:id" element={<ItemDetail/>} />
+          <Route path="/keyboard/:id" element={<ItemDetail/>} />
           <Route path="/item_management" element={<ItemManagement/>} />
       </Routes>
+      </UserProvider>
+      
     </div>
 
   );

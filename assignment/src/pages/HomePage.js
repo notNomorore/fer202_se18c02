@@ -1,4 +1,4 @@
-import Contents from "../components/Contents";
+import Contents from "../components/ContentsLog";
 import Header from "../components/Header";
 import NavigationLog from "../components/NavigationLog";
 import Footer from "../components/Footer";  

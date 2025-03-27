@@ -39,7 +39,7 @@ function Contents() {
 
     return (
         <Container fluid style={{ maxWidth: "90%" }}>
-            <h2 style={{ textAlign: "center", margin: "20px 0" }}>In-stock Products</h2>
+        <h2 style={{ textAlign: "center", margin: "20px 0" }}>In-stock Products</h2>
 
             <Row className="mb-3">
                 <Col md={6}>
@@ -58,12 +58,10 @@ function Contents() {
                     </Form.Select>
                 </Col>
             </Row>
-
             <Row style={{ padding: "5px" }} className="d-flex align-items-stretch">
                 {sortedAndFilteredKeyboards().map((keyboard) => (
                     <Col key={keyboard.id} md={3} className="mb-3">
                         <Card className="p-4 shadow-lg" style={{ maxWidth: "350px", margin: "auto", borderRadius: "7px" }}>
-                            {/* ... (Card content remains the same) */}
                             <Card.Header>
                                 <Nav variant="tabs" defaultActiveKey="#first">
                                     <Nav.Item>
@@ -92,6 +90,11 @@ function Contents() {
                     </Col>
                 ))}
             </Row>
+        <h2 style={{ textAlign: "center", margin: "20px 0" }}>Pre-ord Products</h2>
+                <Row>
+
+                    
+                </Row>
         </Container>
     );
 }

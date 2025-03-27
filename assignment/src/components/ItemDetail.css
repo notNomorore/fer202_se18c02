@@ -1,0 +1,68 @@
+.item-detail-container {
+    padding: 20px;
+}
+
+.product-details {
+    padding-left: 20px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.current-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}
+
+.discount {
+    color: red;
+}
+
+.shipping, .buy-options, .color-options, .quantity {
+    margin-bottom: 10px;
+}
+
+.color-buttons button {
+    margin-right: 5px;
+}
+
+.add-to-cart {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.share-buttons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.share-buttons button {
+    margin-left: 5px;
+}
+
+.thumbnail-images {
+    display: flex;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 80px;
+    margin-right: 5px;
+}
